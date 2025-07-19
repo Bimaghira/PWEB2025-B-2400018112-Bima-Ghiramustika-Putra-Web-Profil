@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - My Profile</title>
+<link rel="stylesheet" href="style.css" />
+<script src="validate.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>Login ke Profil</h1>
+</header>
+<main class="login-form">
+  <form action="proses_login.php" method="post" onsubmit="return validateForm()">
+    <label>Email:</label>
+    <input type="text" name="email" id="email" placeholder="Masukkan email" />
+    
+    <label>Password:</label>
+    <input type="password" name="password" id="password" placeholder="Masukkan password" />
+    
+    <button type="submit">Login</button>
+  </form>
+</main>
+
+<footer class="footer">
+  <p>&copy; 2025 Bima What. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
